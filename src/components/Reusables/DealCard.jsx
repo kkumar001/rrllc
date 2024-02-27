@@ -6,13 +6,13 @@ const DealCard = () => {
   return (
     <div className='sm:w-[32%] w-[90%] h-[425px] flex flex-col items-center justify-between p-4 bg-white rounded-2xl'>
       <img src={imgSrc} alt="img" className='w-[140px] my-4' />
-      <div className='flex w-full gap-2 text-center'>
+      <div className='flex w-full gap-2 text-center sm:justify-start justify-center'>
         <div className='text-[#074786] bg-[#F2F4F7] rounded-lg text-[13px] p-1'>20% Off</div>
         <div className='text-[#074786] bg-[#F2F4F7] rounded-lg text-[13px] p-1'>Limited time</div>
       </div>
       <p className='text-[#626E79] font-bold text-[16px]'>Webbuilder 1</p>
       <p className='text-[#626E79] text-[16px]'>Computer  Modern clasic with wix support</p>
-      <p className='w-full flex gap-3 items-end'>
+      <p className='w-full flex gap-3 items-end sm:justify-start justify-center'>
         <span className='text-[#5C6874] text-[20px]'>$39.96</span>
         <span className='text-[#9FA9B3] text-[14px]'> $49.96</span>
         <span className='text-[#EF4C5D] text-[13px]'>(20% Off)</span>

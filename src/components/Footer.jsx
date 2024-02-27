@@ -4,7 +4,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
-        <div className='w-full h-[448px] flex justify-evenly sm:px-10 px-3 py-10 bg-[#212731]'>
+        <div className='w-full h-[448px] flex justify-evenly gap-2 sm:px-10 px-3 py-10 bg-[#212731]'>
             <div>
                 <h6 className='text-white text-[16px] my-2'>CATEGORIES</h6>
                 <ul className='text-[#B6BDC4] text-[14px] flex flex-col gap-2'>

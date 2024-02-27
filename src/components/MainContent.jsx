@@ -10,7 +10,7 @@ import DealCard from './Reusables/DealCard'
 const MainContent = () => {
     return (
         <div className='w-full flex justify-center'>
-            <div className='lg:w-[70%] w-[90%] flex flex-col my-4'>
+            <div className='lg:w-[70%] w-[90%] flex flex-col my-4 p-2'>
                 <div className='w-full'>
                     <h1 className='text-[48px] text-[#2C384A]'>Best Website builders in the US</h1>
                     <hr className='text-[#E1E4E6]' />
@@ -21,7 +21,7 @@ const MainContent = () => {
                             <FontAwesomeIcon icon={faCircleInfo} className='size-[14px] ml-2' />
                             <p>Advertising Disclosure</p>
                         </div>
-                        <div className='flex items-center'>
+                        <div className='flex items-center text-end ml-2'>
                             <p>Advertising Disclosure</p>
                             <FontAwesomeIcon icon={faAngleDown} className='size-[14px] ml-1' />
                         </div>
@@ -116,8 +116,8 @@ const MainContent = () => {
                             <div className='w-full flex flex-col gap-2 my-2'>
                                 <div className='w-full flex flex-col gap-4 bg-[#FFF4ED] text-[16px] px-2 py-4 rounded-2xl'>
                                     <p><span className='size-[24px] rounded-lg p-1 mx-2 bg-white text-[#1B88F4]'>9.9</span>Building Responsive</p>
-                                    <p><span className='size-[24px] rounded-lg p-1 mx-2 bg-white text-[#1B88F4]'>9.9</span>Building Responsive</p>
-                                    <p><span className='size-[24px] rounded-lg p-1 mx-2 bg-white text-[#1B88F4]'>8.9</span>Building Responsive</p>
+                                    <p><span className='size-[24px] rounded-lg p-1 mx-2 bg-white text-[#1B88F4]'>9.9</span>Cool</p>
+                                    <p><span className='size-[24px] rounded-lg p-1 mx-2 bg-white text-[#1B88F4]'>8.9</span>Docs</p>
                                 </div>
                                 <div className='w-full mt-4'>
                                     <p className='text-[16px] text-[#2C384A]'>Why we love it</p>
